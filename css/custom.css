@@ -25,3 +25,16 @@
     margin-bottom: 10px !important;
 }
 
+.service-item-box{
+    padding-top: 0px;
+    padding-bottom: 500px;
+}
+
+.service-title{
+    top:28%;
+}
+
+.service-item:hover .service-title{
+    top:36%;
+}
+
