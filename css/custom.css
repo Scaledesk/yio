@@ -6,7 +6,7 @@
     margin-top: 16vh;
     
     padding: 30px 60px;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.8);
     border-radius: 2px;
     
 }
@@ -22,22 +22,32 @@
     margin-top: -18px;
 }
 
-textarea#comment {
-    height: 140px;
+.main-form textarea#comment {
+    height: 60px;
   }
 
+.main-form textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus{
+    border-color: antiquewhite;
+    color: antiquewhite;
+}
 .footer-widgets {
-    padding: 40px 0;}
+    padding: 40px 0;
+    padding-bottom: 0px;
+}
+
+.footer-widgets .widget {
+    margin-bottom: 20px;
+}
 
 .hero-wrap .hero-img{
     
-/*
+
    background:  linear-gradient(rgba(41, 46, 49, 0.34),rgba(243, 107, 33, 0.48)),url(https://images.pexels.com/photos/7070/space-desk-workspace-coworking.jpg?w=940&h=650&auto=compress&cs=tinysrgb);
     
     background-size: cover;
     
-*/
-    background-image: url(https://images.pexels.com/photos/7070/space-desk-workspace-coworking.jpg?w=940&h=650&auto=compress&cs=tinysrgb);
+
+    background-image: url(../img/banner/banner-landing.jpg);
 }
 
 .m-b-10{
@@ -55,5 +65,25 @@ textarea#comment {
 
 .service-item:hover .service-title{
     top:36%;
+}
+
+.services.style-2 .service-item-box{
+    padding: 30px;
+}
+
+#testimonials{ 
+    background:  linear-gradient(rgba(41, 46, 49, 0.34),rgba(243, 107, 33, 0.48)),url(../img/banner/client.jpg);
+/*    background-size: contain;*/
+}
+
+
+/*Round Button hollow*/
+
+.btn-r{
+    padding: 5px;
+    border: 2px solid #e0631f;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 18px;
 }
 
