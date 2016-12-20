@@ -3,7 +3,7 @@
 }
 
 .main-form{
-    margin-top: 20vh;
+    margin-top: 16vh;
     
     padding: 30px 60px;
     background: rgba(0,0,0,0.7);
@@ -16,10 +16,18 @@
 }
 
 .main-form .hero-subtitle{
+    margin-bottom: 6px;
     line-height: 2;
     font-size: x-large;
-    margin-top: 0px;
+    margin-top: -18px;
 }
+
+textarea#comment {
+    height: 140px;
+  }
+
+.footer-widgets {
+    padding: 40px 0;}
 
 .hero-wrap .hero-img{
     

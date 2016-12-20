@@ -78,23 +78,25 @@
                   <li class="active">
                     <a href="#home">Home</a>
                   </li>
+                    <li>
+                        <a href="#about-us">About</a>
+                    </li>
+                    <li>
+                        <a href="#benefits">Features</a>
+                    </li>
+
                   <li>
                     <a href="#services">Services</a>
                   </li>
-                  <li>
-                    <a href="#about-us">About</a>
-                  </li>
+
                   <li>
                     <a href="#portfolio">Works</a>
                   </li>                         
                   <li>
-                    <a href="#blog">Blog</a>
+                    <a href="#testimonials">Testimonial</a>
                   </li>
                   <li>
                     <a href="#contact">Contact</a>
-                  </li>
-                  <li>
-                    <a href="../index.html">All Demos</a>
                   </li>
       
                 </ul>
@@ -142,6 +144,11 @@
                 <div class="col-md-12 contact-name">
                   <input name="name" id="name" type="text" placeholder="Name*">
                 </div>
+
+                <div class="col-md-12 contact-name">
+                  <input name="name" id="name" type="number" placeholder="Mobile">
+                </div>
+
                 <div class="col-md-12 contact-email">
                   <input name="mail" id="mail" type="email" placeholder="E-mail*">
                 </div>
@@ -174,7 +181,7 @@
     </section>
 
     <!-- Intro -->
-    <section class="section-wrap intro bg-light" id="intro">
+    <section class="section-wrap intro bg-light" id="about-us">
       <div class="container intro-wrap wow slideInUp" data-wow-duration="1.2s" data-wow-delay="0s">
         <div class="row">
           <div class="col-sm-8 col-sm-offset-2 text-center">
@@ -202,51 +209,75 @@
 
             <div class="item">
               <a href="#">
-                <img src="img/client_logo_1.png" alt="">
+                <img src="img/vavasi-1.png" alt="">
               </a>
             </div> <!-- end first logo -->
 
             <div class="item">
               <a href="#">
-                <img src="img/client_logo_2.png" alt="">
+                <img src="img/vivai2.png" alt="">
               </a>
             </div> <!-- end second logo -->
 
             <div class="item">
               <a href="#">
-                <img src="img/client_logo_3.png" alt="">
+                <img src="img/logo3.png" alt="">
               </a>
             </div> <!-- end third logo -->
 
             <div class="item">
               <a href="#">
-                <img src="img/client_logo_4.png" alt="">
+                <img src="img/logo4.png" alt="">
               </a>
             </div> <!-- end fourth logo -->
 
             <div class="item">
               <a href="#">
-                <img src="img/client_logo_5.png" alt="">
+                <img src="img/logo5.png" alt="">
               </a>
             </div> <!-- end fifth logo -->
 
             <div class="item">
               <a href="#">
-                <img src="img/client_logo_6.png" alt="">
+                <img src="img/logo6.png" alt="">
               </a>
             </div> <!-- end sixth logo -->
 
             <div class="item">
               <a href="#">
-                <img src="img/client_logo_1.png" alt="">
+                <img src="img/logo7.png" alt="">
               </a>
             </div> <!-- end seventh logo -->
 
             <div class="item">
               <a href="#">
-                <img src="img/client_logo_2.png" alt="">
+                <img src="img/logo8.png" alt="">
               </a>
             </div> <!-- end eighth logo -->
+
+            <div class="item">
+              <a href="#">
+                <img src="img/logo9.png" alt="">
+              </a>
+            </div> <!-- end ninth logo -->
+
+            <div class="item">
+              <a href="#">
+                <img src="img/logo10.png" alt="">
+              </a>
+            </div> <!-- end tenth logo -->
+
+            <div class="item">
+              <a href="#">
+                <img src="img/logo11.png" alt="">
+              </a>
+            </div> <!-- end eleventh logo -->
+
+            <div class="item">
+              <a href="#">
+                <img src="img/logo12.png" alt="">
+              </a>
+            </div> <!-- end twelve logo -->
 
           </div> <!-- end carousel -->
           
@@ -255,7 +286,7 @@
     </section> <!-- end partners -->
 
    <!-- Benefits -->
-    <section class="section-wrap services style-2 bg-light pb-90">
+    <section class="section-wrap services style-2 bg-light pb-90" id="benefits">
       <div class="container">
 
         <div class="row mb-60">
@@ -381,8 +412,66 @@
                   <p>PA System</p>
                   <p>Fire alarm system</p>
                   <p>Intruder alarm system</p>
-                <p class="service-descr btn btn-sm  btn-orange btn-icon">Contact Us</p>
+                <p class="service-descr btn btn-sm  btn-orange btn-icon" data-toggle="modal" data-target="#myModal" >Contact Us</p>
+
 <!--                  <a class="btn btn-sm btn-stroke">Contact Us</a>-->
+                <!--  modal start--> <!-- probl.while opening modal>-->
+                  <div id="myModal" class="modal fade" role="dialog">
+                      <div class="modal-dialog">
+
+                          <!-- Modal content-->
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">Contact Us</h4>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="row">
+                                  <div class="col-md-12 full-vh">
+
+                                      <div class="row main-form">
+
+                                          <form id="main-form" action="#" class="text-center">
+                                              <h2 class="hero-subtitle">Submit your Queries</h2>
+                                              <div class="row">
+
+                                                  <div class="col-md-12 contact-name">
+                                                      <input name="name" id="name" type="text" placeholder="Name*">
+                                                  </div>
+
+                                                  <div class="col-md-12 contact-name">
+                                                      <input name="name" id="name" type="number" placeholder="Mobile">
+                                                  </div>
+
+                                                  <div class="col-md-12 contact-email">
+                                                      <input name="mail" id="mail" type="email" placeholder="E-mail*">
+                                                  </div>
+                                              </div>
+
+
+                                              <textarea name="comment" id="comment" placeholder="Message"></textarea>
+                                              <input type="submit" class="btn btn-lg btn-color btn-submit" value="Send Message" id="submit-message">
+                                              <div id="msg" class="message"></div>
+
+
+                                          </form>
+
+                                      </div>
+
+
+
+                                  </div>
+                                  </div>
+                              </div>
+                              <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              </div>
+                          </div>
+
+                      </div>
+                  </div>
+                 <!-- modal end-->
+
               </div>  
             </a>            
           </div> <!-- end service item -->
@@ -394,7 +483,7 @@
   
 
     <!-- About us / Progress Bars -->
-    <section class="section-wrap">
+    <section class="section-wrap" id="about">
       <div class="container">
         <div class="row">
 
@@ -468,7 +557,7 @@
         <div class="row mt-50">
           <div id="owl-featured-works" class="owl-carousel owl-theme">
             <div class="work-item">
-              <img src="img/project_1.jpg" alt="">
+              <img src="img/project01.jpg" alt="">
               <div class="portfolio-overlay">
                 <div class="project-icons">
                   <a href="http://vimeo.com/139208268" class="lightbox-video mfp-iframe"><i class="fa fa-search"></i></a>
@@ -482,7 +571,7 @@
             </div> <!-- end first item -->
 
             <div class="work-item">
-              <img src="img/project_2.jpg" alt="">
+              <img src="img/project03.jpg" alt="">
               <div class="portfolio-overlay">
                 <div class="project-icons">
                   <a href="img/project_2_big.jpg" class="lightbox-gallery"><i class="fa fa-search"></i></a>
@@ -496,7 +585,7 @@
             </div> <!-- end second item -->
 
             <div class="work-item">
-              <img src="img/project_3.jpg" alt="">
+              <img src="img/project4.jpg" alt="">
               <div class="portfolio-overlay">
                 <div class="project-icons">
                   <a href="img/project_3_big.jpg" class="lightbox-gallery"><i class="fa fa-search"></i></a>
@@ -510,7 +599,7 @@
             </div> <!-- end third item -->
 
             <div class="work-item">
-              <img src="img/project_4.jpg" alt="">
+              <img src="img/project04.jpg" alt="">
               <div class="portfolio-overlay">
                 <div class="project-icons">
                   <a href="img/project_4_big.jpg" class="lightbox-gallery"><i class="fa fa-search"></i></a>
@@ -600,7 +689,7 @@
 
 
     <!-- Testimonials -->
-    <section class="section-wrap parallax-testimonials" style="background-image: url(img/testimonials_bg.jpg)">
+    <section class="section-wrap parallax-testimonials" id="testimonials" style="background-image: url(img/testimonials_bg.jpg)">
 
       <div class="container text-center">
         <h2 class="color-white">Happy Clients</h2>
@@ -712,7 +801,7 @@
             <div class="col-md-4">
               <div class="footer-logo widget text-center local-scroll">
                 <a href="#home">
-                  <img src="img/logo/logo.png" alt="">
+                  <img src="img/logo/logo%20(1).png" alt="">
                 </a>
                 <p class="mb-0">Interior Options Onepage is a very slick and clean template. Creating an awesome website with this Theme is easy than you can imagine.</p>
               </div>
